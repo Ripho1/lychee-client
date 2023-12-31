@@ -1,0 +1,24 @@
+.header {
+    left: calc((100vw - var(--page-width)) / 2);
+    top: 140px;
+    position: absolute;
+}
+
+.header .primary {
+    font-family: Exo;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+
+    width: 137px;
+    text-align: center;
+}
+
+.header .secondary {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    
+    margin: 7px 0 0 3px;
+    width: 541px;
+}

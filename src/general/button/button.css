@@ -1,0 +1,11 @@
+.basic-button {
+    background-color: #2237FF;
+    box-sizing: border-box;
+    padding: 8px 24px;
+    border-radius: 6px;
+    border: 0;
+}
+
+.basic-button:hover {
+    cursor: pointer;
+}

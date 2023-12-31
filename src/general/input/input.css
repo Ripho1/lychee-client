@@ -1,0 +1,9 @@
+.basic-input {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+
+    /* This is considered a bad practice (accessibility issue) 
+       but I could not see/find what the input's outline is supposed to look like */
+    outline: none;
+}

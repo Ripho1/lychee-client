@@ -1,0 +1,51 @@
+.main-content {
+    width: 1120px;
+    height: 580px;
+    top: 273px;
+    left: calc((100vw - var(--page-width)) / 2);
+    position: absolute;
+
+    background-color: #FFFFFF;
+
+    padding: 64px 97px 64px 96px;
+    box-sizing: border-box;
+}
+
+.main-content .title {
+    width: 420px;
+}
+
+.main-content .container {
+    display: flex;
+    margin-top: 68px;
+    height: 262px;
+    gap: 59px;
+}
+
+.main-content .views {
+    height: 198px;
+}
+
+.main-content .views .view {
+    padding-left: 16px;
+    border-left: 0.5px solid #C5C5C5;
+    width: max-content;
+}
+
+.main-content .views .view.active-view {
+    /* There is a slight difference here because the browser doesn't do fractions in css well */
+    margin-left: -1px;
+    border-left: 3px solid #2237FF;
+}
+
+.main-content .seperator {
+    height: 0;
+    border: 0.5px solid #E1E1E1;
+    margin-top: 36px;
+}
+
+.main-content .save {
+    width: 81px;
+    height: 30px;
+    margin-top: 24px;
+}

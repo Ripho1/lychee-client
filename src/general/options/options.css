@@ -1,0 +1,23 @@
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.options .option {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+.options .option span:hover {
+    cursor: pointer;
+}
+
+.options .option.active {
+    color: #2237FF;
+}

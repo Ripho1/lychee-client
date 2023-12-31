@@ -1,0 +1,20 @@
+.select-container .select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.select-container .select .icon {
+    width: 10px;
+    height: 5px;
+}
+
+.select-container .select-options {
+    position: absolute;
+}
+
+.select-container .select-options.hide {
+    z-index: -1;
+}

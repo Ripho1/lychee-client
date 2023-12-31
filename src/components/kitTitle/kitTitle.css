@@ -1,0 +1,21 @@
+.kit-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kit-title .label {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.kit-title .kit-input {
+    height: 32px;
+    width: 256px;
+    box-sizing: border-box;
+    border: 1px solid #2237FF;
+    border-radius: 8px;
+    padding: 4px 12px;
+
+}

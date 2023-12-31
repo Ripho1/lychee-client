@@ -1,0 +1,73 @@
+.outro-container {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.outro-container .outro-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.outro-container .outro-title img {
+    width: 16px;
+    height: 16px;
+}
+
+.outro-container .call-to-action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.outro-container .call-to-action.gap-fix {
+    margin-top: 53px;
+}
+
+.outro-container .call-to-action .call-select {
+    width: 155px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #EBEBEB;
+    padding: 5px 14px;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.outro-container .call-to-action .call-options {
+    width: 155px;
+    padding: 5px 14px;
+    margin-top: 15px;
+    margin-left: -14px;
+
+    border-radius: 8px;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    
+    box-shadow: 0px 0px 4px 3px #EBEBEB;
+    background-color: #FFFFFF;
+}
+
+.outro-container .call-to-action .call-option {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.outro-container .call-to-action .free-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.outro-container .call-to-action .free-text-container .free-text {
+    width: 352px;
+    height: 94px;
+}
