@@ -1,7 +1,9 @@
 # Client Side of the assignment
 
-In order to run this use one of the commands:
+In order to run this project:
 
+1. ```npm i```
+2. Either:
 * ```npm start``` - For continuous development
 * ```npm run build``` - For a static bundle
 
